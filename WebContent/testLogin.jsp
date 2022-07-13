@@ -15,7 +15,7 @@
 	if(id.equals(request.getParameter("userid")) && pw.equals(request.getParameter("userpw"))){
 		response.sendRedirect("main.jsp?name=" + URLEncoder.encode(name, "UTF-8"));
 	}else{
-		response.sendRedirect("login.jsp");
+		 response.sendRedirect("login.jsp");
 	}
 %>
 
